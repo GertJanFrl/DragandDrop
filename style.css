@@ -1,0 +1,145 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#Wrapper {
+heigth: 480px;
+width: 944px;
+-moz-user-select:none;
+text-align: center;
+}
+
+#afbeeldingwrapper {
+display:inline-block;
+height: auto;
+width: auto;
+padding-left: 40px;
+
+}
+
+#afbeeldingwrapper .entry {
+border: 1px solid black;
+margin-right: 2px;
+margin-bottom: 2px;
+max-heigth: 191px;
+color: #222;
+
+} 
+
+#afbeeldingwrapper .entry img {
+	pointer-events: none;
+	max-heigth: 191px;
+} 
+
+
+#afbeeldingwrapper .dropZone {
+display:block;
+padding: 10px;
+text-align: center;
+background-color: #C2C2C2;
+background-image:url('img/dropareaN.png');
+
+}
+
+#afbeeldingwrapper .dropZone:hover {
+opacity: 0.5;
+
+}
+
+#afbeeldingwrapper .dropZoneFOUT {
+display:block;
+padding: 10px;
+text-align: center;
+background-color: #C2C2C2;
+background-image:url('img/dropareaWRONG.png');
+}
+
+#afbeeldingwrapper .dropZoneGOED {
+display:block;
+padding: 10px;
+background-color: #C2C2C2;
+text-align: center;
+background-image:url('img/dropareaSUCCESS.png');
+}
+
+.dropZoneGoed .PlaySoundBut {
+
+background-color: #D1D1D1;
+display:inline-block;
+padding-left: 4px;
+padding-right: 4px;
+text-align: center;
+
+-webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5); 
+
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.dropZoneGoed .PlaySoundBut:hover {
+background-color: #999999;
+
+}
+
+
+#sidebar .dragableWord {
+display:block;
+background-color: #D1D1D1;
+border: 1px solid black;
+-moz-user-select:none;
+text-align: center;
+margin-bottom: 4px;
+padding: 1px;
+cursor: pointer;
+text-transform: capitalize;
+float: left;
+margin-left: 10px;
+border-radius: 3px;
+
+}
+
+#sidebar .dragableWord:hover {
+background-color: #999999;
+}
+
+#sidebar {
+min-heigth: 59px;
+width: 100%;
+display: inline-block;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+	
+}
+
+img {
+-moz-user-select:none;
+}
+
+#sidebar .scoreBoard {
+	background-color: #999;
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 4px;
+}
+
+#sidebar .scoreBoard .text {
+	color: white;
+	padding-right: 4px;
+}
+
+[draggable=true] {
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.float_left {
+	float:left;
+}
+.clear {
+	clear:both;
+}
