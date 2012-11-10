@@ -1,8 +1,9 @@
 <?php
+// This file is not created by ME!
 $config["host"] = "localhost";
-$config["uName"] = "sodbu";
-$config["dPass"] = "Hg7%@53hj";
-$config["dbName"] = "sleepoefeningdb";
+$config["uName"] = "user";
+$config["dPass"] = "password";
+$config["dbName"] = "database";
 
 function sqlsafe($data) 
 {
